@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff3cc"/>
+      <stop offset="1" stop-color="#f9dd96"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" rx="44" fill="url(#bg)"/>
+  <g opacity="0.14">
+    <circle cx="160" cy="120" r="70" fill="#f0a03a"/>
+    <circle cx="760" cy="150" r="55" fill="#f0a03a"/>
+  </g>
+  <g transform="translate(260,150)">
+    <rect x="0" y="0" width="430" height="280" rx="26" fill="#1b1e26" opacity="0.14"/>
+    <rect x="18" y="18" width="394" height="244" rx="22" fill="#ffffff" opacity="0.72"/>
+    <g transform="translate(60,80)">
+      <rect x="0" y="110" width="36" height="60" rx="8" fill="#f0a03a"/>
+      <rect x="60" y="70" width="36" height="100" rx="8" fill="#f0a03a"/>
+      <rect x="120" y="40" width="36" height="130" rx="8" fill="#f0a03a"/>
+      <rect x="180" y="95" width="36" height="75" rx="8" fill="#f0a03a"/>
+      <rect x="240" y="20" width="36" height="150" rx="8" fill="#f0a03a"/>
+      <path d="M0 170 H300" stroke="#1b1e26" opacity="0.22" stroke-width="5"/>
+      <path d="M10 120 C70 40, 160 140, 290 60" fill="none" stroke="#1b1e26" opacity="0.30" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <rect x="150" y="292" width="130" height="22" rx="10" fill="#1b1e26" opacity="0.12"/>
+  </g>
+  <g transform="translate(170,430) scale(0.9)">
+    <ellipse cx="0" cy="55" rx="120" ry="80" fill="#ffffff" opacity="0.85"/>
+    <circle cx="85" cy="36" r="42" fill="#ffffff" opacity="0.85"/>
+    <circle cx="98" cy="32" r="8" fill="#1b1e26" opacity="0.55"/>
+    <path d="M120 44 L160 60 L120 74 Z" fill="#f0a03a"/>
+    <path d="M70 10 C88 -12, 112 -10, 112 12 C112 34, 88 36, 70 10 Z" fill="#d43a3a"/>
+    <path d="M-20 68 C-75 90, -130 80, -165 50 C-120 25, -70 30, -35 52" fill="#f2d27a" opacity="0.9"/>
+    <path d="M-55 125 v50" stroke="#f0a03a" stroke-width="12" stroke-linecap="round"/>
+    <path d="M10 125 v50" stroke="#f0a03a" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>
